@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+.box {
+  color: #e4393c;
+  font-family: 'SimHei';
+  border: 4px solid #e4393c;
+}
+.col-1 {
+  width: 82.66666667px;
+}
+.col-3 {
+  width: 248px;
+}
+.box2 {
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+.well {
+  padding: 10px;
+  border: 2px solid #aaaaaa;
+  background: #eee;
+}
+.alert {
+  padding: 20px;
+  border: 1px solid #dddddd;
+  color: #f00;
+}
+#main {
+  padding: 10px;
+}
+#main ul {
+  list-style: none;
+}
+#main ul li {
+  display: inline-block;
+}
+#main ul li > a {
+  color: #333;
+}
+#main ul li > a:hover {
+  text-decoration: none;
+}
+.col-1 {
+  width: 82px;
+}
+.col-2 {
+  width: 16.66666667%;
+}

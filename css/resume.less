@@ -1,0 +1,199 @@
+.line {
+  width: 80%;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  height: 1px;
+  background: #fff;
+  background-image: -webkit-linear-gradient(left, #f1c633, #fff, #f1c633);
+  background-image: -moz-linear-gradient(left, #f1c633, #fff, #f1c633);
+  background-image: -ms-linear-gradient(left, #f1c633, #fff, #f1c633);
+  background-image: -o-linear-gradient(left, #f1c633, #fff, #f1c633);
+  opacity: 0.5;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 40px 0 10px;
+  color: #fff;
+}
+.btn-xl{
+  padding: 20px 40px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #999;
+  margin-top: 20px;
+}
+
+//大背景
+.service, .about, .contact {
+  background: #F1C633;
+  padding: 120px 0 120px;
+}
+
+.portfolio, .team {
+  background: #CECECE;
+  padding: 120px 0 120px;
+  .line {
+    background-image: -webkit-linear-gradient(left, #cecece, #fff, #cecece);
+    background-image: -moz-linear-gradient(left, #cecece, #fff, #cecece);
+    background-image: -ms-linear-gradient(left, #cecece, #fff, #cecece);
+    background-image: -o-linear-gradient(left, #cecece, #fff, #cecece);
+  }
+}
+
+//导航条
+.navbar.navbar-default {
+  margin-bottom: 0;
+  .container{
+    margin:10px auto;
+  }
+  .navbar-brand {
+    font-weight: bold;
+  }
+  .navbar_btn{
+    li{
+      a{
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+    }
+  }
+}
+
+//service部分
+.service_main > div {
+  text-align: center;
+  margin: 20px auto;
+  i {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 50%;
+    background-color: #fff;
+    img {
+      margin-top: 22%;
+      width: 70%;
+    }
+  }
+}
+
+//portfolio部分
+.portfolio {
+  .portfolio_caption {
+    padding: 25px;
+    background-color: #dedede;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .portfolio-item {
+    margin-bottom: 30px;
+    .portfolio_link {
+      position: relative;
+      width: 100%;
+      display: block;
+      max-width: 400px;
+      margin: 0 auto;
+      .portfolio_hover {
+        z-index: 2;
+        position: absolute;
+        background: rgba(254, 209, 54, .7);
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        margin: 0 auto;
+        transition: all .3s linear;
+        &:hover {
+          opacity: 1;
+        }
+        i {
+          color: #fff;
+          font-size: 64px;
+          position: absolute;
+          top: 50%;
+          margin-top: -32px;
+          left: 50%;
+          margin-left: -32px;
+        }
+      }
+    }
+  }
+
+}
+
+//about部分
+.about_main {
+  h3 {
+    margin-bottom: 30px;
+    + img {
+      margin-bottom: 20px;
+    }
+  }
+  ul.why_list {
+    margin: 20px 0 10px;
+    li {
+      margin: 15px 0;
+    }
+  }
+}
+
+//team部分
+.team_main {
+  img.img-circle {
+    border: 8px solid #fff;
+  }
+  h4 {
+    margin-top: 20px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  ul {
+    i {
+      width: 40px;
+      height: 40px;
+      background: #C4C4C4;
+      border-radius: 50%;
+      font-size: 20px;
+      color: #fff;
+      line-height: 40px;
+      transition: all .3s linear;
+      &:hover {
+        background:#FED136;
+      }
+    }
+  }
+
+}
+//contact部分
+
+.contact_main_form{
+  .form-group{
+    margin-bottom: 25px;
+    .form-control{
+      padding:15px;
+      height:auto;
+      font-size: 14px;
+      color:#888888;
+    }
+    textarea.form-control{
+      height:206px;
+    }
+  }
+
+}
+
+
+
+
+
